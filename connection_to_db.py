@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-import pandas.io.sql as sqlio
 import psycopg2 as ps
 
 conn2 = ps.connect(dbname = 'postgres',
